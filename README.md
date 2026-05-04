@@ -31,3 +31,10 @@ BananoCola
 Vous l'aurez constaté, votre client a des demandes particulières, voire contradictoires. À vous de lister les demandent, de rectifier ces dernières et de faire des maquettes en accord avec vos connaissances.
 
 Obligation d'utiliser bootstrap et des composants. L'utilisation de l'ia est toléré uniquement pour les visuels du site (photo).
+
+## Présentation du site de chaque groupe le 05/05/26 à 15h00.
+**Pour chaque présentation, le groupe devra :**
+lister les demandes du client
+préciser ce qui a été retenu ou non dans les demandes du client (justifier pourquoi)
+technologie utilisée (classes bootstrap, composants bootstrap ou css classique ?) et les justifications de vos choix
+problème et imprévu rencontré et solution apportée.
