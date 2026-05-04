@@ -1,0 +1,23 @@
+/* Police titre : Knewave
+Police texte : Kumbh Sans
+Bleu ciel : #F62E3FF
+Jaune : #FCDA00
+Foncé : #002931 */
+
+:root{
+    --bleu-ciel: #62E3FF;
+    --jaune: #FCDA00;
+    --fonce: #002931;
+}
+
+body{
+    font-family: "Kumbh Sans", sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: "Knewave", system-ui;
+}
+
+.btn-primary{
+    background: var(--jaune);
+}
