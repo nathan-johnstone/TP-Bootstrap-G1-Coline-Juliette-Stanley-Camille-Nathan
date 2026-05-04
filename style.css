@@ -1,0 +1,8 @@
+#monCarousel {
+    max-width: 600px;
+    margin: auto;
+}
+.carousel-item{
+    height: 400px;
+    object-fit: cover;
+}
