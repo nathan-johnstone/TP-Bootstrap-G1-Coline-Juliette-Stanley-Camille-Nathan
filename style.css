@@ -10,6 +10,22 @@ h1{
     color:#002931;
 }
 
+.bgPrimary {
+    background-color: #FCDA00;
+}
+
+.bgSecondary {
+    background-color: #003844;
+}
+
+.colorTextP {
+    color: #FCDA00;
+}
+
+.colorTextS {
+    color: #003844;
+}
+
 #monCarousel {
     max-width: 600px;
     margin: auto;
@@ -46,8 +62,28 @@ p.card-text{
     background-color: #FCDA00;
     color: #002931;
     border: none;
+    padding: 0.7em;
     border-radius: 25px;
 }
+
+.btn-primary a {
+    text-decoration: none;
+    color:#003844;
+}
+
+.btn-secondary {
+    background-color:#003844;
+    color: #FCDA00;
+    border: none;
+    padding: 0.7em;
+    border-radius: 25px;
+}
+
+.btn-secondary a {
+    text-decoration: none;
+    color: #FCDA00;
+}
+
 h5, h5.card-title{
     color:#FCDA00;
 }
@@ -63,4 +99,8 @@ h5, h5.card-title{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+}
+
+.logoMain img {
+    height: 500px;
 }
