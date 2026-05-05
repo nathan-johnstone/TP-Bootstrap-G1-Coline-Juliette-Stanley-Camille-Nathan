@@ -1,9 +1,73 @@
+:root{
+    --bleu-ciel: #62E3FF;
+    --jaune: #FCDA00;
+    --fonce: #002931;
+}
+
 body{
     font-family: "Kumbh Sans", sans-serif;
 }
 
 h1, h2, h3, h4, h5, h6{
     font-family: "Knewave", system-ui;
+}
+
+
+.btn-primary {
+    --bs-btn-color: var(--fonce);
+    --bs-btn-bg: var(--jaune);
+    --bs-btn-border-color: var(--jaune);
+    --bs-btn-hover-color: var(--fonce);
+    --bs-btn-hover-bg: var(--bleu-ciel);
+    --bs-btn-hover-border-color: var(--bleu-ciel);
+    --bs-btn-active-color: var(--fonce);
+    --bs-btn-active-bg: var(--bleu-ciel);
+    --bs-btn-active-border-color: var(--bleu-ciel);
+}
+
+.title-card{
+    background: var(--fonce);
+    color: #fff
+}
+
+.title-card h1{
+    color: var(--jaune);
+}
+
+header, footer{
+    background: var(--jaune);
+    border-radius: 20px;
+    color: var(--fonce)
+}
+
+header img, footer img{
+    border-radius: 10px;;
+}
+
+.nav{
+    --bs-nav-link-color: var(--fonce);
+}
+
+.nav a:hover, .nav a:visited{
+    color: var(--fonce);
+    text-decoration: underline 2px;
+    text-underline-offset: 3px;
+}
+
+.nav-link.active{
+    color: var(--fonce);
+    font-weight: bold;
+    text-decoration: underline 2px;
+    text-underline-offset: 3px;
+}
+
+.breadcrumb-item a{
+    color: var(--fonce);
+    transition: all ease 0.1s;
+}
+
+.breadcrumb-item a:hover{
+    color: var(--jaune);
 }
 
 h1{
@@ -84,11 +148,15 @@ p.card-text{
     --bs-btn-hover-color: #003844;
     --bs-btn-hover-bg: #62E3FF;
     --bs-btn-hover-border-color: #62E3FF;
+    --bs-btn-active-color: #003844;
+    --bs-btn-active-bg: #62E3FF;
+    --bs-btn-active-border-color: #62E3FF;
 }
 
-.btn-secondary a {
+.btn-secondary a, .btn-secondary a:active {
     text-decoration: none;
     color: inherit;
+    background-color: inherit;
 }
 
 h5, h5.card-title{
