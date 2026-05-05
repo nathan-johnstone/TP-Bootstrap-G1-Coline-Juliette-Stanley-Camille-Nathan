@@ -104,5 +104,5 @@ h5, h5.card-title{
 }
 
 .logoMain img {
-    height: 500px;
+    max-height: 500px;
 }
