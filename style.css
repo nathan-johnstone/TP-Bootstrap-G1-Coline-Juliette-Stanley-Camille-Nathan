@@ -81,11 +81,14 @@ p.card-text{
     border: none;
     padding: 0.7em;
     border-radius: 25px;
+    --bs-btn-hover-color: #003844;
+    --bs-btn-hover-bg: #62E3FF;
+    --bs-btn-hover-border-color: #62E3FF;
 }
 
 .btn-secondary a {
     text-decoration: none;
-    color: #FCDA00;
+    color: inherit;
 }
 
 h5, h5.card-title{

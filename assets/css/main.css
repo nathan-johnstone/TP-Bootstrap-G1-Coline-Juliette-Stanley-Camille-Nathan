@@ -49,11 +49,19 @@ header img, footer img{
 
 .nav{
     --bs-nav-link-color: var(--fonce);
-    --bs-nav-link-hover-color: #fff;
+}
+
+.nav a:hover, .nav a:visited{
+    color: var(--fonce);
+    text-decoration: underline 2px;
+    text-underline-offset: 3px;
 }
 
 .nav-link.active{
-    color: #fff
+    color: var(--fonce);
+    font-weight: bold;
+    text-decoration: underline 2px;
+    text-underline-offset: 3px;
 }
 
 .breadcrumb-item a{
