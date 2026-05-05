@@ -45,9 +45,9 @@ h1, h2, h3, h4, h5, h6{
 }
 
 header, footer{
-    background: var(--fonce);
+    background: var(--jaune);
     border-radius: 20px;
-    color: #fff;
+    color: var(--fonce)
 }
 
 header img, footer img{
@@ -55,10 +55,19 @@ header img, footer img{
 }
 
 .nav{
-    --bs-nav-link-color: #fff;
-    --bs-nav-link-hover-color: var(--jaune);
-    --bs-nav-link-disabled-color: var(--bleu-ciel);
+    --bs-nav-link-color: #var(var(--fonce));
+    --bs-nav-link-hover-color: #fff;
 }
+
 .nav-link.active{
-    color: var(--bleu-ciel)
+    color: #fff
+}
+
+.breadcrumb-item a{
+    color: var(--fonce);
+    transition: all ease 0.1s;
+}
+
+.breadcrumb-item a:hover{
+    color: var(--jaune);
 }
