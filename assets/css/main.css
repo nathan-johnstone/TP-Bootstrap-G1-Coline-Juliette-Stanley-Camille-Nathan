@@ -26,14 +26,6 @@ h1, h2, h3, h4, h5, h6{
     --bs-btn-hover-color: var(--fonce);
     --bs-btn-hover-bg: var(--bleu-ciel);
     --bs-btn-hover-border-color: var(--bleu-ciel);
-    --bs-btn-focus-shadow-rgb: 49, 132, 253;
-    --bs-btn-active-color: var(--fonce);
-    --bs-btn-active-bg: var(--bleu-ciel);
-    --bs-btn-active-border-color: var(--bleu-ciel);
-    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
-    --bs-btn-disabled-color: var(--fonce);
-    --bs-btn-disabled-bg: var(--jaune);
-    --bs-btn-disabled-border-color: var(--jaune);
 }
 
 .title-card{
@@ -56,7 +48,7 @@ header img, footer img{
 }
 
 .nav{
-    --bs-nav-link-color: #var(var(--fonce));
+    --bs-nav-link-color: var(--fonce);
     --bs-nav-link-hover-color: #fff;
 }
 
