@@ -12,13 +12,16 @@ h1{
 
 #monCarousel {
     max-width: 600px;
-    margin: auto;
     border-radius: 25px;
 }
 .carousel-item{
     height: 337px;
+}
+.carousel-item img{
+    height: 100%;
+    width: 100%;
     object-fit: cover;
-    
+    border-radius: 25px;
 }
 .carousel-caption {
     background: rgba(0, 0, 0, 0.45);
@@ -38,6 +41,7 @@ h1{
 }
 .card{
     background-color: #002931;
+    margin: 5px auto;
 }
 p.card-text{
     color: white;
@@ -51,16 +55,8 @@ p.card-text{
 h5, h5.card-title{
     color:#FCDA00;
 }
+
 .description-produits {
     max-width: 700px;
-    margin: 20px auto;
-    text-align: center;
-    font-size: 1.1rem;
     color: #003844;
-    line-height: 1.6;
-}
-.card-body{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
 }
