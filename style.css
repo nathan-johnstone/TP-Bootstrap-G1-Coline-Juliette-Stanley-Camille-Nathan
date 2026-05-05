@@ -1,8 +1,66 @@
+body{
+    font-family: "Kumbh Sans", sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: "Knewave", system-ui;
+}
+
+h1{
+    color:#002931;
+}
+
 #monCarousel {
     max-width: 600px;
     margin: auto;
+    border-radius: 25px;
 }
 .carousel-item{
-    height: 400px;
+    height: 337px;
     object-fit: cover;
+    
+}
+.carousel-caption {
+    background: rgba(0, 0, 0, 0.45);
+    border-radius: 15px;
+    padding: 15px;
+    
+}
+.card-img-top{
+    height: 200px;
+    width: 250px;
+    object-fit: cover;
+    margin: 5px;
+    border-radius: 5px;
+}
+.bandeau_h1{
+    background-color:#FCDA00 ;
+}
+.card{
+    background-color: #002931;
+}
+p.card-text{
+    color: white;
+}
+.btn-primary{
+    background-color: #FCDA00;
+    color: #002931;
+    border: none;
+    border-radius: 25px;
+}
+h5, h5.card-title{
+    color:#FCDA00;
+}
+.description-produits {
+    max-width: 700px;
+    margin: 20px auto;
+    text-align: center;
+    font-size: 1.1rem;
+    color: #003844;
+    line-height: 1.6;
+}
+.card-body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }

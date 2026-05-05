@@ -5,8 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Produits BananaLand</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Knewave&family=Kumbh+Sans:wght,YOPQ@100..900,300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+    
 </head>
 
 <body>
@@ -18,10 +20,13 @@
             <button type="button" data-bs-target="#monCarousel" data-bs-slide-to="0" class="active"></button>
             <button type="button" data-bs-target="#monCarousel" data-bs-slide-to="1"></button>
             <button type="button" data-bs-target="#monCarousel" data-bs-slide-to="2"></button>
+            <button type="button" data-bs-target="#monCarousel" data-bs-slide-to="3"></button>
+            <button type="button" data-bs-target="#monCarousel" data-bs-slide-to="4"></button>
+            <button type="button" data-bs-target="#monCarousel" data-bs-slide-to="5"></button>
         </div>
 
         <!-- Slides -->
-        <div class="carousel-inner" >
+        <div class="carousel-inner my-3" >
 
             <div class="carousel-item active">
                 <img src="img/Banane-flambee.webp" class="d-block w-100" alt="slide 1">
@@ -33,7 +38,7 @@
             <div class="carousel-item">
                 <img src="img/banoffee.png" class="d-block w-100" alt="slide 2">
                 <div class="carousel-caption">
-                <h5>Banofée</h5>
+                <h5>Banoffee</h5>
                 </div>
             </div>
 
@@ -77,58 +82,67 @@
         </button>
     </div>
 
-    <h1>Nos Produits</h1>
+    <div class="bandeau_h1 container-fluid py-5">
+    <h1 class="text-center">Nos Produits</h1>
+    <p class="description-produits">
+    Découvrez notre collection de gourmandises 100% banane : desserts fondants, boissons rafraîchissantes et créations originales qui mettent ce fruit star à l’honneur. Chez Banana Land, on ne fait pas les choses à moitié : ici, la banane se décline sous toutes ses formes pour surprendre, régaler et faire sourire.
+    </p>
+    </div>
 
-    <div class="container">
-        <div class="card" style="width: 18rem;">
-            <img src="img/Banane-flambee.webp" class="card-img-top" alt="...">
-            <div class="card-body">
-                <h5 class="card-title">Banane-flambee</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
-            </div>
-        </div>
-        <div class="card" style="width: 18rem;">
-            <img src="img/banoffee.png" class="card-img-top" alt="...">
-            <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
-            </div>
-        </div>
-        <div class="card" style="width: 18rem;">
-            <img src="img/cakebanane.webp" class="card-img-top" alt="...">
-            <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
-            </div>
-        </div>
-        <div class="card" style="width: 18rem;">
-            <img src="img/glace.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
-            </div>
-        </div>
-        <div class="card" style="width: 18rem;">
-            <img src="img/smoothie.webp" class="card-img-top" alt="...">
-            <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
-            </div>
-        </div>
-        <div class="card" style="width: 18rem;">
-            <img src="img/cola.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
-            </div>
-        </div>
+    <div class="container text-center">
 
+        <div class="row justify-content-between my-3">
+            <div class="card" style="width: 18rem;">
+                <img src="img/Banane-flambee.webp" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Banane-flambee</h5>
+                    <p class="card-text">Une banane caramélisée et légèrement flambée pour un dessert chaud qui met le feu… mais seulement à vos papilles.</p>
+                    <a href="#" class="btn btn-primary">🍌 Commander</a>
+                </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+                <img src="img/banoffee.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Banoffee</h5>
+                    <p class="card-text">Le mariage parfait entre banane, caramel fondant et biscuit croquant. Une romance sucrée à laquelle personne ne résiste.</p>
+                    <a href="#" class="btn btn-primary">🍌 Commander</a>
+                </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+                <img src="img/cakebanane.webp" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Cake à la banane</h5>
+                    <p class="card-text">Moelleux, gourmand et réconfortant. Le genre de gâteau qui donne envie d’en reprendre “juste une tranche”… cinq fois.</p>
+                    <a href="#" class="btn btn-primary">🍌 Commander</a>
+                </div>
+            </div>
+        </div>
+        <div class="row justify-content-between">
+            <div class="card" style="width: 18rem;">
+                <img src="img/glace.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Glace à la banane</h5>
+                    <p class="card-text">Crémeuse, fraîche et intensément bananée. Le dessert idéal pour survivre à une chaleur de jungle urbaine.</p>
+                    <a href="#" class="btn btn-primary">🍌 Commander</a>
+                </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+                <img src="img/smoothie.webp" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Jus de fruit à la banane</h5>
+                    <p class="card-text">Un Jus de fruit frais, onctueux et vitaminé. Comme des vacances tropicales, mais en version buvable.</p>
+                    <a href="#" class="btn btn-primary">🍌 Commander</a>
+                </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+                <img src="img/cola.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Bananacola</h5>
+                    <p class="card-text">La boisson pétillante la plus inattendue de l’année : cola + banane = une expérience aussi étrange qu’addictive.</p>
+                    <a href="#" class="btn btn-primary">🍌 Commander</a>
+                </div>
+            </div>
+        </div>
 
     </div>
 
